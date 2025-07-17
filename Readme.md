@@ -20,7 +20,7 @@ A minimal backend service that implements a configurable state-machine workflow 
 
 1. **Clone or download the project files**
 ```bash
-git clone 
+git clone https://github.com/Concave-Streak/WorkflowEngine.git
 ```
 
 2. **Navigate to the project directory**
