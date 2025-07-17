@@ -33,11 +33,7 @@ cd WorkflowEngine
 dotnet restore
 ```
 
-4. **Run the application**
-```bash
-dotnet run
-```
-To test the application using Swagger web UI:
+4. **Run and Test the application using Swagger web UI**
 ```bash
 dotnet run --environment Development
 ```
@@ -49,6 +45,9 @@ dotnet run --environment Development
 
 ### Testing the Application
 - A simple python script `check.py` is included for automatically testing the endpoints
+```bash
+python check.py
+```
 - Swagger web UI automatically generates live, interactive documentation for all the endpoints
     - Each endpoint displays the expected request/response formats
     - Endpoints can be directly Tested from the browser using the "Try it out" feature
